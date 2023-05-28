@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ezi Grocery Shop - Home</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Ezi Grocery Shop</h1>
+ 
+    <nav>
+      <ul>
+          <li><a href="grocery shop.html"><img src="home.png" alt="Product Image" width="15" height="15">Home</a></li>
+          <li><a href="cart.html"><img src="cart.png" alt="Product Image" width="15" height="15">Cart</a></li>
+          <li><a href="checkout.html"><img src="receipt.jpg" alt="Product Image" width="15" height="15">Checkout</a></li>
+          <li><a href="comment.html"><img src="comment.jpg" alt="Product Image" width="15" height="15">Comment</a></li>
+      </ul>
+  </nav>
+</header>
+
+<body>
+  <section class="checkout">
+    <h2>Checkout</h2>
+    <form class="checkout-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br><br>
+      <label for="no.tel">No. Telephone:</label>
+      <input type="text" id="no.tel" name="no.tel" required>
+      <br><br>
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="4" required></textarea>
+      <br><br>
+      <label for="payment">Payment:</label>
+      <select id="payment" name="payment" required>
+        <option value="">Select Payment Method</option>
+        <option value="Cash">Cash</option>
+        <option value="Pay Wave/Debit">Pay Wave/Debit</option>
+      </select>
+      <br><br>
+
+      <button type="submit">Place Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2022 Ezi Grocery Shop. All rights reserved.</p>
+  </footer>
+
+  
+</body>
+</html>
